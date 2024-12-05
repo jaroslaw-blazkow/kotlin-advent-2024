@@ -16,12 +16,12 @@ fun main() {
                     a.toInt() * b.toInt()
                 } else if (it.value == "do()") {
                     go = true
-                    "0".toInt()
+                    0
                 } else if (it.value == "don't()") {
                     go = false
-                    "0".toInt()
+                    0
                 } else {
-                    "0".toInt()
+                    0
                 }
             }
     }
